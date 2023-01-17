@@ -11,3 +11,8 @@ This project aims to create national elevation maps where altidudinal gradients 
 Example for Austria - where you find the code in this repository.
 
 ![Landauer_CoE_Austria](https://user-images.githubusercontent.com/75936509/212924418-dee8f43a-dd87-4878-bac2-84965072ee0c.jpeg)
+
+
+
+### Acknowledgements
+Thanks for inspiration and tutorial materials available by [Spencer Schien](https://spencerschien.info/)
