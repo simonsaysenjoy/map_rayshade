@@ -47,14 +47,18 @@ states <- states %>% group_by(BL) %>% summarise
 states <- st_transform(states, st_crs("EPSG:4258"))
 ggplot(data = states) +
   geom_sf(aes(fill = BL)) +
-  geom_sf_label(aes(label = BL))
+  geom_sf_label(aes(label = BL)) +
+  theme(legend.position = "none")
 
 # Calculate country outline for faster DEM download (delete later)
 country <- states %>% summarize
 
-## ----- State Borders -----
+## ----- DEM (with elevatr) -----
+# Here elevation data is pulled using the elevatr package.
+# I tend to also use official DEM (e.g. EU-DEM) and pre-process in QGIS -
+# - in case you do, skip some of the processing below
 # Choose resolution for elevation data pulled from elevatr (1-14)
-z_elevatr <- 9
+z_elevatr <- 6
 
 # DEM aquisition
 dem <-  get_elev_raster(country,
