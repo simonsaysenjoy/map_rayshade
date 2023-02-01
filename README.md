@@ -1,6 +1,6 @@
 # Shaded Maps in R
 
-Here you find code realting to maps I created using the [rayshader](https://www.rayshader.com/) and [rayrender](https://www.rayrender.net/) packages developed by [Tyler Morgan-Wall](https://www.tylermw.com/).
+Here you find code relating to maps I created using the [rayshader](https://www.rayshader.com/) and [rayrender](https://www.rayrender.net/) packages developed by [Tyler Morgan-Wall](https://www.tylermw.com/).
 
 Any code you can find here can be used, altered and shared. The examples are non-exhaustive and should be considered as a starting point for further inspiriation. Examplary datasets used need to be cited (check codes commentary themselves).
 
