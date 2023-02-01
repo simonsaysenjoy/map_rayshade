@@ -3,7 +3,7 @@
 ##
 #########################################
 # Author: Simon Landauer
-# Last Update: 2022-01-15
+# Last Update: 2023-01-15
 #########################################
 # Description:
 # The following code is an example how to construct a shaded elevation map with 
